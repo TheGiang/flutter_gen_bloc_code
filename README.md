@@ -1,0 +1,1 @@
+# flutter_gen_bloc_code
