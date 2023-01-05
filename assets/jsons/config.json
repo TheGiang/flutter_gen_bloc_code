@@ -1,0 +1,29 @@
+{
+  "blocName": "Affiliate",
+  "apis": [
+    {
+      "name": "tracking",
+      "type": "post",
+      "evenParams": [
+        {
+          "type": "int?",
+          "name": "number"
+        },
+        {
+          "type": "String?",
+          "name": "name"
+        }
+      ],
+      "stateParams": [
+        {
+          "type": "ApiResult<BaseListResponse<AffiliateReport>>?",
+          "name": "data"
+        },
+        {
+          "type": "bool",
+          "name": "isReachMax"
+        }
+      ]
+    }
+  ]
+}
